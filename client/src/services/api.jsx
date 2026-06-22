@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://poojaconnect-fz3b.onrender.com"
+  baseURL: "https://poojaconnect-fz3b.onrender.com/api"
 });
 
 api.interceptors.request.use((config) => {
