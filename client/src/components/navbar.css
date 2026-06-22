@@ -1,0 +1,51 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #ff9800, #ff5722);
+  color: white;
+  align-items: center;
+}
+
+.nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: black;
+}
+
+.logout-btn {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+
+  padding: 6px 12px;
+  border-radius: 8px;
+
+  font-weight: 600;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap; /* 🔥 THIS FIXES HIDDEN BUTTONS */
+}
+/* hover effect */
+.logout-btn:hover {
+  background: white;
+  
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+}
+
+/* align with links */
+.nav-links button {
+  font-family: inherit;
+}

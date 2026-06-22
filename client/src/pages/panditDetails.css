@@ -1,0 +1,65 @@
+.pd-page {
+  padding: 40px;
+  text-align: center;
+  background: linear-gradient(180deg, #fff3e0, #ffffff);
+  font-family: Arial;
+}
+
+.title {
+  color: #ff5722;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  width: 350px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.avatar {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.info p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.tags {
+  margin: 15px 0;
+}
+
+.tags span {
+  display: inline-block;
+  background: #ffe0b2;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #ff9800, #ff5722);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}

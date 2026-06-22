@@ -1,0 +1,55 @@
+.admin-page {
+  padding: 30px;
+  background: #fff7ed;
+  min-height: 100vh;
+  font-family: Arial;
+}
+
+.admin-title {
+  margin-bottom: 20px;
+  color: #e65100;
+}
+
+.loading {
+  font-size: 18px;
+  color: #666;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  /* color: white; */
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* Different colors */
+.users {
+  background: linear-gradient(135deg, #42a5f5, #1e88e5);
+}
+
+.pandits {
+  background: linear-gradient(135deg, #66bb6a, #2e7d32);
+}
+
+.bookings {
+  background: linear-gradient(135deg, #ff9800, #ef6c00);
+}
+
+.pending {
+  background: linear-gradient(135deg, #ef5350, #c62828);
+}

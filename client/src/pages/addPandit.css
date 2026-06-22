@@ -1,0 +1,62 @@
+.add-pandit-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #fff3e0, #ffffff);
+  font-family: Arial;
+}
+
+.add-pandit-card {
+  width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.add-pandit-card h2 {
+  color: #ff5722;
+  margin-bottom: 5px;
+}
+
+.add-pandit-card p {
+  color: #777;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input:focus {
+  border-color: #ff9800;
+  box-shadow: 0 0 5px rgba(255,152,0,0.4);
+}
+
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #ff9800, #ff5722);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}

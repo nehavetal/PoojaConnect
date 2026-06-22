@@ -1,0 +1,24 @@
+.auth {
+  width: 300px;
+  margin: 80px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px gray;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.auth input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.auth button {
+  width: 100%;
+  padding: 10px;
+  background: #ff9800;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
