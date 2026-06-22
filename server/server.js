@@ -45,14 +45,23 @@ const PORT = process.env.PORT || 5000;
 // FIX: proper async startup
 const startServer = async () => {
   try {
+    console.log("Connecting DB...");
+
     await connectDB();
+
+    console.log("DB Connected ✔");
 
     app.listen(PORT, () => {
       console.log(`🚀 Server running on port ${PORT}`);
     });
+
   } catch (err) {
-    console.error("❌ DB Connection Failed:", err);
-    process.exit(1);
+    console.error("DB ERROR:", err.message);
+
+    // IMPORTANT: server crash होऊ नये
+    app.listen(PORT, () => {
+      console.log("⚠️ Server running WITHOUT DB");
+    });
   }
 };
 
